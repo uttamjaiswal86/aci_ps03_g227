@@ -3,14 +3,502 @@
 c. Initial Grid (Loaded from File):
 S . . # . T . .
 # . T # . . . .
-. . . . . T . #
-. . # # . . . .
-T . . . . # # P
-. . . . T . . .
-. . # . . P # T
-. . . . T . P .
+. . . . T . # .
+. # # . . . . .
+T . . . # # . P
+. . . T . . . .
+. # . . P # T .
+. . . T . P . .
 
 
 ==================================================
 RUNNING MISSION: GBFS with Heuristic 1
 ==================================================
+
+[Targeting Survivor 2 at (6, 4)]
+g. Selected Next Node: Survivor 2
+Frontier nodes tracking under GBFS_algo search: [(10, (0, 0))]
+Explored nodes tracking under GBFS_algo search: (0, 0)
+Calculated heuristic for (0, 1): 9 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(9, (0, 1))]
+Explored nodes tracking under GBFS_algo search: (0, 1)
+Calculated heuristic for (1, 1): 8 from GBFS_algo search
+Calculated heuristic for (0, 2): 8 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(8, (1, 1)), (8, (0, 2))]
+Explored nodes tracking under GBFS_algo search: (1, 1)
+Calculated heuristic for (2, 1): 7 from GBFS_algo search
+Calculated heuristic for (1, 2): 7 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(7, (2, 1)), (8, (0, 2)), (7, (1, 2))]
+Explored nodes tracking under GBFS_algo search: (2, 1)
+Calculated heuristic for (2, 0): 8 from GBFS_algo search
+Calculated heuristic for (2, 2): 6 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(6, (2, 2)), (7, (1, 2)), (8, (2, 0)), (8, (0, 2))]
+Explored nodes tracking under GBFS_algo search: (2, 2)
+Calculated heuristic for (1, 2): 7 from GBFS_algo search
+Calculated heuristic for (2, 3): 5 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(5, (2, 3)), (7, (1, 2)), (8, (2, 0)), (8, (0, 2)), (7, (1, 2))]
+Explored nodes tracking under GBFS_algo search: (2, 3)
+Calculated heuristic for (3, 3): 4 from GBFS_algo search
+Calculated heuristic for (2, 4): 4 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(4, (3, 3)), (7, (1, 2)), (4, (2, 4)), (8, (0, 2)), (7, (1, 2)), (8, (2, 0))]
+Explored nodes tracking under GBFS_algo search: (3, 3)
+Calculated heuristic for (4, 3): 3 from GBFS_algo search
+Calculated heuristic for (3, 4): 3 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(3, (4, 3)), (7, (1, 2)), (3, (3, 4)), (8, (0, 2)), (7, (1, 2)), (8, (2, 0)), (4, (2, 4))]
+Explored nodes tracking under GBFS_algo search: (4, 3)
+Calculated heuristic for (5, 3): 2 from GBFS_algo search
+Calculated heuristic for (4, 2): 4 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(2, (5, 3)), (4, (4, 2)), (3, (3, 4)), (7, (1, 2)), (7, (1, 2)), (8, (2, 0)), (4, (2, 4)), (8, (0, 2))]
+Explored nodes tracking under GBFS_algo search: (5, 3)
+Calculated heuristic for (6, 3): 1 from GBFS_algo search
+Calculated heuristic for (5, 2): 3 from GBFS_algo search
+Calculated heuristic for (5, 4): 1 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(1, (6, 3)), (1, (5, 4)), (4, (2, 4)), (3, (5, 2)), (3, (3, 4)), (8, (2, 0)), (8, (0, 2)), (7, (1, 2)), (4, (4, 2)), (7, (1, 2))]
+Explored nodes tracking under GBFS_algo search: (6, 3)
+Calculated heuristic for (7, 3): 2 from GBFS_algo search
+Calculated heuristic for (6, 2): 2 from GBFS_algo search
+Calculated heuristic for (6, 4): 0 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(0, (6, 4)), (2, (7, 3)), (1, (5, 4)), (3, (5, 2)), (2, (6, 2)), (4, (2, 4)), (8, (0, 2)), (7, (1, 2)), (4, (4, 2)), (7, (1, 2)), (3, (3, 4)), (8, (2, 0))]
+Explored nodes tracking under GBFS_algo search: (6, 4)
+
+Final Path: [(0, 0), (0, 1), (1, 1), (2, 1), (2, 2), (2, 3), (3, 3), (4, 3), (5, 3), (6, 3), (6, 4)]
+
+Toxic zones crossed: 1
+
+Tries (Nodes Explored): 11
+
+Updated Grid after rescuing Survivor 2:
+S . . # . T . .
+# . T # . . . .
+. . . . T . # .
+. # # . . . . .
+T . . . # # . P
+. . . T . . . .
+. # . . . # T .
+. . . T . P . .
+
+
+[Targeting Survivor 3 at (7, 5)]
+g. Selected Next Node: Survivor 3
+Frontier nodes tracking under GBFS_algo search: [(2, (6, 4))]
+Explored nodes tracking under GBFS_algo search: (6, 4)
+Calculated heuristic for (5, 4): 3 from GBFS_algo search
+Calculated heuristic for (7, 4): 1 from GBFS_algo search
+Calculated heuristic for (6, 3): 3 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(1, (7, 4)), (3, (5, 4)), (3, (6, 3))]
+Explored nodes tracking under GBFS_algo search: (7, 4)
+Calculated heuristic for (7, 3): 2 from GBFS_algo search
+Calculated heuristic for (7, 5): 0 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(0, (7, 5)), (2, (7, 3)), (3, (5, 4)), (3, (6, 3))]
+Explored nodes tracking under GBFS_algo search: (7, 5)
+
+Final Path: [(6, 4), (7, 4), (7, 5)]
+
+Toxic zones crossed: 0
+
+Tries (Nodes Explored): 3
+
+Updated Grid after rescuing Survivor 3:
+S . . # . T . .
+# . T # . . . .
+. . . . T . # .
+. # # . . . . .
+T . . . # # . P
+. . . T . . . .
+. # . . . # T .
+. . . T . . . .
+
+
+[Targeting Survivor 1 at (4, 7)]
+g. Selected Next Node: Survivor 1
+Frontier nodes tracking under GBFS_algo search: [(5, (7, 5))]
+Explored nodes tracking under GBFS_algo search: (7, 5)
+Calculated heuristic for (7, 4): 6 from GBFS_algo search
+Calculated heuristic for (7, 6): 4 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(4, (7, 6)), (6, (7, 4))]
+Explored nodes tracking under GBFS_algo search: (7, 6)
+Calculated heuristic for (6, 6): 3 from GBFS_algo search
+Calculated heuristic for (7, 7): 3 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(3, (6, 6)), (6, (7, 4)), (3, (7, 7))]
+Explored nodes tracking under GBFS_algo search: (6, 6)
+Calculated heuristic for (5, 6): 2 from GBFS_algo search
+Calculated heuristic for (6, 7): 2 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(2, (5, 6)), (2, (6, 7)), (3, (7, 7)), (6, (7, 4))]
+Explored nodes tracking under GBFS_algo search: (5, 6)
+Calculated heuristic for (4, 6): 1 from GBFS_algo search
+Calculated heuristic for (5, 5): 3 from GBFS_algo search
+Calculated heuristic for (5, 7): 1 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(1, (4, 6)), (2, (6, 7)), (1, (5, 7)), (6, (7, 4)), (3, (5, 5)), (3, (7, 7))]
+Explored nodes tracking under GBFS_algo search: (4, 6)
+Calculated heuristic for (3, 6): 2 from GBFS_algo search
+Calculated heuristic for (4, 7): 0 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(0, (4, 7)), (2, (6, 7)), (1, (5, 7)), (6, (7, 4)), (3, (5, 5)), (3, (7, 7)), (2, (3, 6))]
+Explored nodes tracking under GBFS_algo search: (4, 7)
+
+Final Path: [(7, 5), (7, 6), (6, 6), (5, 6), (4, 6), (4, 7)]
+
+Toxic zones crossed: 1
+
+Tries (Nodes Explored): 6
+
+Updated Grid after rescuing Survivor 1:
+S . . # . T . .
+# . T # . . . .
+. . . . T . # .
+. # # . . . . .
+T . . . # # . .
+. . . T . . . .
+. # . . . # T .
+. . . T . . . .
+
+**************************************************
+--- MISSION SUMMARY (GBFS - H1) ---
+**************************************************
+
+Rescue Sequence: ['2', '3', '1']
+
+Total Nodes Explored: 20
+
+Total Toxic Zones Crossed: 2
+
+Execution Time: 4.76 ms
+
+
+==================================================
+RUNNING MISSION: GBFS with Heuristic 2
+==================================================
+
+[Targeting Survivor 2 at (6, 4)]
+g. Selected Next Node: Survivor 2
+Frontier nodes tracking under GBFS_algo search: [(10, (0, 0))]
+Explored nodes tracking under GBFS_algo search: (0, 0)
+Calculated heuristic for (0, 1): 9 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(9, (0, 1))]
+Explored nodes tracking under GBFS_algo search: (0, 1)
+Calculated heuristic for (1, 1): 8 from GBFS_algo search
+Calculated heuristic for (0, 2): 8 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(8, (1, 1)), (8, (0, 2))]
+Explored nodes tracking under GBFS_algo search: (1, 1)
+Calculated heuristic for (2, 1): 7 from GBFS_algo search
+Calculated heuristic for (1, 2): 9 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(7, (2, 1)), (8, (0, 2)), (9, (1, 2))]
+Explored nodes tracking under GBFS_algo search: (2, 1)
+Calculated heuristic for (2, 0): 8 from GBFS_algo search
+Calculated heuristic for (2, 2): 6 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(6, (2, 2)), (8, (0, 2)), (8, (2, 0)), (9, (1, 2))]
+Explored nodes tracking under GBFS_algo search: (2, 2)
+Calculated heuristic for (1, 2): 9 from GBFS_algo search
+Calculated heuristic for (2, 3): 5 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(5, (2, 3)), (8, (0, 2)), (8, (2, 0)), (9, (1, 2)), (9, (1, 2))]
+Explored nodes tracking under GBFS_algo search: (2, 3)
+Calculated heuristic for (3, 3): 4 from GBFS_algo search
+Calculated heuristic for (2, 4): 6 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(4, (3, 3)), (8, (0, 2)), (6, (2, 4)), (9, (1, 2)), (9, (1, 2)), (8, (2, 0))]
+Explored nodes tracking under GBFS_algo search: (3, 3)
+Calculated heuristic for (4, 3): 3 from GBFS_algo search
+Calculated heuristic for (3, 4): 3 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(3, (4, 3)), (8, (0, 2)), (3, (3, 4)), (9, (1, 2)), (9, (1, 2)), (8, (2, 0)), (6, (2, 4))]
+Explored nodes tracking under GBFS_algo search: (4, 3)
+Calculated heuristic for (5, 3): 4 from GBFS_algo search
+Calculated heuristic for (4, 2): 4 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(3, (3, 4)), (4, (4, 2)), (4, (5, 3)), (8, (0, 2)), (9, (1, 2)), (8, (2, 0)), (6, (2, 4)), (9, (1, 2))]
+Explored nodes tracking under GBFS_algo search: (3, 4)
+Calculated heuristic for (2, 4): 6 from GBFS_algo search
+Calculated heuristic for (3, 5): 4 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(4, (5, 3)), (4, (4, 2)), (6, (2, 4)), (4, (3, 5)), (9, (1, 2)), (8, (2, 0)), (9, (1, 2)), (8, (0, 2)), (6, (2, 4))]
+Explored nodes tracking under GBFS_algo search: (5, 3)
+Calculated heuristic for (6, 3): 1 from GBFS_algo search
+Calculated heuristic for (5, 2): 3 from GBFS_algo search
+Calculated heuristic for (5, 4): 1 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(1, (6, 3)), (1, (5, 4)), (6, (2, 4)), (4, (3, 5)), (3, (5, 2)), (8, (2, 0)), (9, (1, 2)), (8, (0, 2)), (6, (2, 4)), (9, (1, 2)), (4, (4, 2))]
+Explored nodes tracking under GBFS_algo search: (6, 3)
+Calculated heuristic for (7, 3): 4 from GBFS_algo search
+Calculated heuristic for (6, 2): 2 from GBFS_algo search
+Calculated heuristic for (6, 4): 0 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(0, (6, 4)), (3, (5, 2)), (1, (5, 4)), (4, (3, 5)), (4, (4, 2)), (2, (6, 2)), (9, (1, 2)), (8, (0, 2)), (6, (2, 4)), (9, (1, 2)), (4, (7, 3)), (8, (2, 0)), (6, (2, 4))]
+Explored nodes tracking under GBFS_algo search: (6, 4)
+
+Final Path: [(0, 0), (0, 1), (1, 1), (2, 1), (2, 2), (2, 3), (3, 3), (4, 3), (5, 3), (6, 3), (6, 4)]
+
+Toxic zones crossed: 1
+
+Tries (Nodes Explored): 12
+
+Updated Grid after rescuing Survivor 2:
+S . . # . T . .
+# . T # . . . .
+. . . . T . # .
+. # # . . . . .
+T . . . # # . P
+. . . T . . . .
+. # . . . # T .
+. . . T . P . .
+
+
+[Targeting Survivor 3 at (7, 5)]
+g. Selected Next Node: Survivor 3
+Frontier nodes tracking under GBFS_algo search: [(2, (6, 4))]
+Explored nodes tracking under GBFS_algo search: (6, 4)
+Calculated heuristic for (5, 4): 3 from GBFS_algo search
+Calculated heuristic for (7, 4): 1 from GBFS_algo search
+Calculated heuristic for (6, 3): 3 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(1, (7, 4)), (3, (5, 4)), (3, (6, 3))]
+Explored nodes tracking under GBFS_algo search: (7, 4)
+Calculated heuristic for (7, 3): 4 from GBFS_algo search
+Calculated heuristic for (7, 5): 0 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(0, (7, 5)), (3, (5, 4)), (4, (7, 3)), (3, (6, 3))]
+Explored nodes tracking under GBFS_algo search: (7, 5)
+
+Final Path: [(6, 4), (7, 4), (7, 5)]
+
+Toxic zones crossed: 0
+
+Tries (Nodes Explored): 3
+
+Updated Grid after rescuing Survivor 3:
+S . . # . T . .
+# . T # . . . .
+. . . . T . # .
+. # # . . . . .
+T . . . # # . P
+. . . T . . . .
+. # . . . # T .
+. . . T . . . .
+
+
+[Targeting Survivor 1 at (4, 7)]
+g. Selected Next Node: Survivor 1
+Frontier nodes tracking under GBFS_algo search: [(5, (7, 5))]
+Explored nodes tracking under GBFS_algo search: (7, 5)
+Calculated heuristic for (7, 4): 6 from GBFS_algo search
+Calculated heuristic for (7, 6): 4 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(4, (7, 6)), (6, (7, 4))]
+Explored nodes tracking under GBFS_algo search: (7, 6)
+Calculated heuristic for (6, 6): 5 from GBFS_algo search
+Calculated heuristic for (7, 7): 3 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(3, (7, 7)), (6, (7, 4)), (5, (6, 6))]
+Explored nodes tracking under GBFS_algo search: (7, 7)
+Calculated heuristic for (6, 7): 2 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(2, (6, 7)), (6, (7, 4)), (5, (6, 6))]
+Explored nodes tracking under GBFS_algo search: (6, 7)
+Calculated heuristic for (5, 7): 1 from GBFS_algo search
+Calculated heuristic for (6, 6): 5 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(1, (5, 7)), (5, (6, 6)), (5, (6, 6)), (6, (7, 4))]
+Explored nodes tracking under GBFS_algo search: (5, 7)
+Calculated heuristic for (4, 7): 0 from GBFS_algo search
+Calculated heuristic for (5, 6): 2 from GBFS_algo search
+Frontier nodes tracking under GBFS_algo search: [(0, (4, 7)), (2, (5, 6)), (6, (7, 4)), (5, (6, 6)), (5, (6, 6))]
+Explored nodes tracking under GBFS_algo search: (4, 7)
+
+Final Path: [(7, 5), (7, 6), (7, 7), (6, 7), (5, 7), (4, 7)]
+
+Toxic zones crossed: 0
+
+Tries (Nodes Explored): 6
+
+Updated Grid after rescuing Survivor 1:
+S . . # . T . .
+# . T # . . . .
+. . . . T . # .
+. # # . . . . .
+T . . . # # . .
+. . . T . . . .
+. # . . . # T .
+. . . T . . . .
+
+**************************************************
+--- MISSION SUMMARY (GBFS - H2) ---
+**************************************************
+
+Rescue Sequence: ['2', '3', '1']
+
+Total Nodes Explored: 21
+
+Total Toxic Zones Crossed: 1
+
+Execution Time: 4.76 ms
+
+
+==================================================
+RUNNING MISSION: A* with Heuristic 1
+==================================================
+
+[Targeting Survivor 2 at (6, 4)]
+g. Selected Next Node: Survivor 2
+Frontier nodes tracking under A*_algo search: [(10, (0, 0))]
+Explored nodes tracking under A*_algo search: (0, 0)
+Calculated heuristic for (0, 1): 9 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (0, 1))]
+Explored nodes tracking under A*_algo search: (0, 1)
+Calculated heuristic for (1, 1): 8 from A*_algo search
+Calculated heuristic for (0, 2): 8 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (1, 1)), (10, (0, 2))]
+Explored nodes tracking under A*_algo search: (1, 1)
+Calculated heuristic for (2, 1): 7 from A*_algo search
+Calculated heuristic for (1, 2): 7 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (0, 2)), (10, (2, 1)), (10, (1, 2))]
+Explored nodes tracking under A*_algo search: (0, 2)
+Calculated heuristic for (1, 2): 7 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (2, 1)), (10, (1, 2)), (10, (1, 2))]
+Explored nodes tracking under A*_algo search: (2, 1)
+Calculated heuristic for (2, 0): 8 from A*_algo search
+Calculated heuristic for (2, 2): 6 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (1, 2)), (10, (1, 2)), (12, (2, 0)), (10, (2, 2))]
+Explored nodes tracking under A*_algo search: (1, 2)
+Calculated heuristic for (2, 2): 6 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (1, 2)), (10, (2, 2)), (12, (2, 0)), (10, (2, 2))]
+Frontier nodes tracking under A*_algo search: [(10, (2, 2)), (10, (2, 2)), (12, (2, 0))]
+Explored nodes tracking under A*_algo search: (2, 2)
+Calculated heuristic for (2, 3): 5 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (2, 2)), (12, (2, 0)), (10, (2, 3))]
+Frontier nodes tracking under A*_algo search: [(10, (2, 3)), (12, (2, 0))]
+Explored nodes tracking under A*_algo search: (2, 3)
+Calculated heuristic for (3, 3): 4 from A*_algo search
+Calculated heuristic for (2, 4): 4 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (3, 3)), (12, (2, 0)), (10, (2, 4))]
+Explored nodes tracking under A*_algo search: (3, 3)
+Calculated heuristic for (4, 3): 3 from A*_algo search
+Calculated heuristic for (3, 4): 3 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (2, 4)), (10, (3, 4)), (10, (4, 3)), (12, (2, 0))]
+Explored nodes tracking under A*_algo search: (2, 4)
+Calculated heuristic for (1, 4): 5 from A*_algo search
+Calculated heuristic for (3, 4): 3 from A*_algo search
+Calculated heuristic for (2, 5): 5 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (4, 3)), (10, (3, 4)), (12, (2, 0)), (12, (1, 4)), (10, (3, 4)), (12, (2, 5))]
+Explored nodes tracking under A*_algo search: (4, 3)
+Calculated heuristic for (5, 3): 2 from A*_algo search
+Calculated heuristic for (4, 2): 4 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (3, 4)), (10, (3, 4)), (10, (5, 3)), (12, (1, 4)), (12, (2, 5)), (12, (2, 0)), (12, (4, 2))]
+Explored nodes tracking under A*_algo search: (3, 4)
+Calculated heuristic for (3, 5): 4 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (3, 4)), (12, (1, 4)), (10, (5, 3)), (12, (4, 2)), (12, (2, 5)), (12, (2, 0)), (12, (3, 5))]
+Frontier nodes tracking under A*_algo search: [(10, (5, 3)), (12, (1, 4)), (12, (2, 0)), (12, (4, 2)), (12, (2, 5)), (12, (3, 5))]
+Explored nodes tracking under A*_algo search: (5, 3)
+Calculated heuristic for (6, 3): 1 from A*_algo search
+Calculated heuristic for (5, 2): 3 from A*_algo search
+Calculated heuristic for (5, 4): 1 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (6, 3)), (10, (5, 4)), (12, (2, 0)), (12, (1, 4)), (12, (2, 5)), (12, (3, 5)), (12, (5, 2)), (12, (4, 2))]
+Explored nodes tracking under A*_algo search: (6, 3)
+Calculated heuristic for (7, 3): 2 from A*_algo search
+Calculated heuristic for (6, 2): 2 from A*_algo search
+Calculated heuristic for (6, 4): 0 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (5, 4)), (10, (6, 4)), (12, (2, 0)), (12, (4, 2)), (12, (1, 4)), (12, (3, 5)), (12, (5, 2)), (12, (7, 3)), (12, (6, 2)), (12, (2, 5))]
+Explored nodes tracking under A*_algo search: (5, 4)
+Calculated heuristic for (6, 4): 0 from A*_algo search
+Calculated heuristic for (5, 5): 2 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(10, (6, 4)), (10, (6, 4)), (12, (2, 0)), (12, (4, 2)), (12, (1, 4)), (12, (3, 5)), (12, (5, 2)), (12, (7, 3)), (12, (6, 2)), (12, (2, 5)), (12, (5, 5))]
+Explored nodes tracking under A*_algo search: (6, 4)
+
+Final Path: [(0, 0), (0, 1), (1, 1), (2, 1), (2, 2), (2, 3), (3, 3), (4, 3), (5, 3), (6, 3), (6, 4)]
+
+Toxic zones crossed: 1
+
+Tries (Nodes Explored): 16
+
+Updated Grid after rescuing Survivor 2:
+S . . # . T . .
+# . T # . . . .
+. . . . T . # .
+. # # . . . . .
+T . . . # # . P
+. . . T . . . .
+. # . . . # T .
+. . . T . P . .
+
+
+[Targeting Survivor 3 at (7, 5)]
+g. Selected Next Node: Survivor 3
+Frontier nodes tracking under A*_algo search: [(2, (6, 4))]
+Explored nodes tracking under A*_algo search: (6, 4)
+Calculated heuristic for (5, 4): 3 from A*_algo search
+Calculated heuristic for (7, 4): 1 from A*_algo search
+Calculated heuristic for (6, 3): 3 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(2, (7, 4)), (4, (5, 4)), (4, (6, 3))]
+Explored nodes tracking under A*_algo search: (7, 4)
+Calculated heuristic for (7, 3): 2 from A*_algo search
+Calculated heuristic for (7, 5): 0 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(2, (7, 5)), (4, (5, 4)), (4, (7, 3)), (4, (6, 3))]
+Explored nodes tracking under A*_algo search: (7, 5)
+
+Final Path: [(6, 4), (7, 4), (7, 5)]
+
+Toxic zones crossed: 0
+
+Tries (Nodes Explored): 3
+
+Updated Grid after rescuing Survivor 3:
+S . . # . T . .
+# . T # . . . .
+. . . . T . # .
+. # # . . . . .
+T . . . # # . P
+. . . T . . . .
+. # . . . # T .
+. . . T . . . .
+
+
+[Targeting Survivor 1 at (4, 7)]
+g. Selected Next Node: Survivor 1
+Frontier nodes tracking under A*_algo search: [(5, (7, 5))]
+Explored nodes tracking under A*_algo search: (7, 5)
+Calculated heuristic for (7, 4): 6 from A*_algo search
+Calculated heuristic for (7, 6): 4 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(5, (7, 6)), (7, (7, 4))]
+Explored nodes tracking under A*_algo search: (7, 6)
+Calculated heuristic for (6, 6): 3 from A*_algo search
+Calculated heuristic for (7, 7): 3 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(5, (6, 6)), (7, (7, 4)), (5, (7, 7))]
+Explored nodes tracking under A*_algo search: (6, 6)
+Calculated heuristic for (5, 6): 2 from A*_algo search
+Calculated heuristic for (6, 7): 2 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(5, (7, 7)), (5, (6, 7)), (5, (5, 6)), (7, (7, 4))]
+Explored nodes tracking under A*_algo search: (7, 7)
+Calculated heuristic for (6, 7): 2 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(5, (5, 6)), (5, (6, 7)), (7, (7, 4)), (5, (6, 7))]
+Explored nodes tracking under A*_algo search: (5, 6)
+Calculated heuristic for (4, 6): 1 from A*_algo search
+Calculated heuristic for (5, 5): 3 from A*_algo search
+Calculated heuristic for (5, 7): 1 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(5, (6, 7)), (5, (6, 7)), (5, (5, 7)), (5, (4, 6)), (7, (5, 5)), (7, (7, 4))]
+Explored nodes tracking under A*_algo search: (6, 7)
+Calculated heuristic for (5, 7): 1 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(5, (6, 7)), (5, (4, 6)), (5, (5, 7)), (7, (7, 4)), (7, (5, 5)), (5, (5, 7))]
+Frontier nodes tracking under A*_algo search: [(5, (4, 6)), (5, (5, 7)), (5, (5, 7)), (7, (7, 4)), (7, (5, 5))]
+Explored nodes tracking under A*_algo search: (4, 6)
+Calculated heuristic for (3, 6): 2 from A*_algo search
+Calculated heuristic for (4, 7): 0 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(5, (5, 7)), (5, (5, 7)), (5, (4, 7)), (7, (7, 4)), (7, (3, 6)), (7, (5, 5))]
+Explored nodes tracking under A*_algo search: (5, 7)
+Calculated heuristic for (4, 7): 0 from A*_algo search
+Frontier nodes tracking under A*_algo search: [(5, (5, 7)), (7, (7, 4)), (5, (4, 7)), (7, (5, 5)), (7, (3, 6)), (5, (4, 7))]
+Frontier nodes tracking under A*_algo search: [(5, (4, 7)), (7, (7, 4)), (5, (4, 7)), (7, (5, 5)), (7, (3, 6))]
+Explored nodes tracking under A*_algo search: (4, 7)
+
+Final Path: [(7, 5), (7, 6), (6, 6), (5, 6), (4, 6), (4, 7)]
+
+Toxic zones crossed: 1
+
+Tries (Nodes Explored): 9
+
+Updated Grid after rescuing Survivor 1:
+S . . # . T . .
+# . T # . . . .
+. . . . T . # .
+. # # . . . . .
+T . . . # # . .
+. . . T . . . .
+. # . . . # T .
+. . . T . . . .
+
+**************************************************
+--- MISSION SUMMARY (A* - H1) ---
+**************************************************
+
+Rescue Sequence: ['2', '3', '1']
+
+Total Nodes Explored: 28
+
+Total Toxic Zones Crossed: 2
+
+Execution Time: 5.93 ms
+
