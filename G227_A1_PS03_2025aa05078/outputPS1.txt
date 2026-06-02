@@ -1,0 +1,104 @@
+
+============================================================
+ COMMENCING MISSION USING HEURISTIC 1 (MANHATTAN)
+============================================================
+
+---> Starting GBFS from (0, 0) to (6, 4)...
+SUCCESS: Reached Survivor (6, 4) in 10 steps!
+ - Toxic Zones Crossed: 1
+ - Explored Nodes: 10
+ - Total Loop Tries: 11
+ - Exec Time: 0.0252 ms | Mem Space: 912 bytes
+ - Path: (0, 0) -> (0, 1) -> (1, 1) -> (2, 1) -> (2, 2) -> (2, 3) -> (3, 3) -> (4, 3) -> (5, 3) -> (6, 3) -> (6, 4)
+   [Iter 1] Selected: (0, 0), h=10 | Frontier Size: 1
+   [Iter 2] Selected: (0, 1), h=9 | Frontier Size: 1
+   [Iter 3] Selected: (1, 1), h=8 | Frontier Size: 2
+   [Iter 4] Selected: (2, 1), h=7 | Frontier Size: 3
+   [Iter 5] Selected: (2, 2), h=6 | Frontier Size: 4
+   [Iter 6] Selected: (2, 3), h=5 | Frontier Size: 5
+   [Iter 7] Selected: (3, 3), h=4 | Frontier Size: 6
+   [Iter 8] Selected: (4, 3), h=3 | Frontier Size: 7
+   [Iter 9] Selected: (5, 3), h=2 | Frontier Size: 8
+   [Iter 10] Selected: (6, 3), h=1 | Frontier Size: 10
+   [Iter 11] Selected: (6, 4), h=0 | Frontier Size: 12
+
+---> Starting GBFS from (6, 4) to (7, 5)...
+SUCCESS: Reached Survivor (7, 5) in 2 steps!
+ - Toxic Zones Crossed: 0
+ - Explored Nodes: 2
+ - Total Loop Tries: 3
+ - Exec Time: 0.0088 ms | Mem Space: 304 bytes
+ - Path: (6, 4) -> (7, 4) -> (7, 5)
+   [Iter 1] Selected: (6, 4), h=2 | Frontier Size: 1
+   [Iter 2] Selected: (7, 4), h=1 | Frontier Size: 3
+   [Iter 3] Selected: (7, 5), h=0 | Frontier Size: 4
+
+---> Starting GBFS from (7, 5) to (4, 7)...
+SUCCESS: Reached Survivor (4, 7) in 5 steps!
+ - Toxic Zones Crossed: 1
+ - Explored Nodes: 5
+ - Total Loop Tries: 6
+ - Exec Time: 0.0095 ms | Mem Space: 848 bytes
+ - Path: (7, 5) -> (7, 6) -> (6, 6) -> (5, 6) -> (4, 6) -> (4, 7)
+   [Iter 1] Selected: (7, 5), h=5 | Frontier Size: 1
+   [Iter 2] Selected: (7, 6), h=4 | Frontier Size: 2
+   [Iter 3] Selected: (6, 6), h=3 | Frontier Size: 3
+   [Iter 4] Selected: (5, 6), h=2 | Frontier Size: 4
+   [Iter 5] Selected: (4, 6), h=1 | Frontier Size: 6
+   [Iter 6] Selected: (4, 7), h=0 | Frontier Size: 7
+
+Mission 'Heuristic 1 (Manhattan)' Ended.
+
+============================================================
+ COMMENCING MISSION USING HEURISTIC 2 (RISK-AWARE)
+============================================================
+
+---> Starting GBFS from (0, 0) to (6, 4)...
+SUCCESS: Reached Survivor (6, 4) in 10 steps!
+ - Toxic Zones Crossed: 1
+ - Explored Nodes: 13
+ - Total Loop Tries: 14
+ - Exec Time: 0.0345 ms | Mem Space: 912 bytes
+ - Path: (0, 0) -> (0, 1) -> (1, 1) -> (2, 1) -> (2, 2) -> (2, 3) -> (3, 3) -> (4, 3) -> (5, 3) -> (5, 4) -> (6, 4)
+   [Iter 1] Selected: (0, 0), h=10 | Frontier Size: 1
+   [Iter 2] Selected: (0, 1), h=9 | Frontier Size: 1
+   [Iter 3] Selected: (1, 1), h=10 | Frontier Size: 2
+   [Iter 4] Selected: (2, 1), h=7 | Frontier Size: 3
+   [Iter 5] Selected: (1, 2), h=7 | Frontier Size: 4
+   [Iter 6] Selected: (2, 0), h=8 | Frontier Size: 5
+   [Iter 7] Selected: (2, 2), h=8 | Frontier Size: 5
+   [Iter 8] Selected: (2, 3), h=7 | Frontier Size: 5
+   [Iter 9] Selected: (3, 3), h=4 | Frontier Size: 6
+   [Iter 10] Selected: (2, 4), h=4 | Frontier Size: 7
+   [Iter 11] Selected: (4, 3), h=5 | Frontier Size: 9
+   [Iter 12] Selected: (5, 3), h=2 | Frontier Size: 10
+   [Iter 13] Selected: (5, 4), h=3 | Frontier Size: 12
+   [Iter 14] Selected: (6, 4), h=0 | Frontier Size: 13
+
+---> Starting GBFS from (6, 4) to (7, 5)...
+SUCCESS: Reached Survivor (7, 5) in 2 steps!
+ - Toxic Zones Crossed: 0
+ - Explored Nodes: 2
+ - Total Loop Tries: 3
+ - Exec Time: 0.0056 ms | Mem Space: 304 bytes
+ - Path: (6, 4) -> (7, 4) -> (7, 5)
+   [Iter 1] Selected: (6, 4), h=2 | Frontier Size: 1
+   [Iter 2] Selected: (7, 4), h=3 | Frontier Size: 3
+   [Iter 3] Selected: (7, 5), h=0 | Frontier Size: 4
+
+---> Starting GBFS from (7, 5) to (4, 7)...
+SUCCESS: Reached Survivor (4, 7) in 5 steps!
+ - Toxic Zones Crossed: 1
+ - Explored Nodes: 6
+ - Total Loop Tries: 7
+ - Exec Time: 0.0122 ms | Mem Space: 848 bytes
+ - Path: (7, 5) -> (7, 6) -> (6, 6) -> (5, 6) -> (4, 6) -> (4, 7)
+   [Iter 1] Selected: (7, 5), h=5 | Frontier Size: 1
+   [Iter 2] Selected: (7, 6), h=6 | Frontier Size: 2
+   [Iter 3] Selected: (6, 6), h=3 | Frontier Size: 3
+   [Iter 4] Selected: (7, 7), h=3 | Frontier Size: 4
+   [Iter 5] Selected: (5, 6), h=4 | Frontier Size: 4
+   [Iter 6] Selected: (4, 6), h=1 | Frontier Size: 6
+   [Iter 7] Selected: (4, 7), h=0 | Frontier Size: 7
+
+Mission 'Heuristic 2 (Risk-Aware)' Ended.
